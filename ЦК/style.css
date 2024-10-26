@@ -1,0 +1,40 @@
+body{
+    background: #c5e7a8;
+}
+h1{
+    font-size: 50px;
+    color: #374e23;
+    padding: 10px
+}
+h2{
+    font-size: 30px;
+    color: #374e23;
+    padding: 10px
+}
+.content-left{
+    background: #8a94df;
+    width: 70%;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.content-right{
+    margin-left: auto;
+    margin-right: auto;
+    background: #d48adf;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
