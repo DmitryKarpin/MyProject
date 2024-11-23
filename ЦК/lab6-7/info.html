@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Robert De Niro</title>
+</head>
+
+<body data-spy="scroll" data-bs-target="#myScrollspy" data-offset="20">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://ru.wikipedia.org/wiki/Де_Ниро,_Роберт">Роберт Де Ниро</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="info.html">Основная информация</a></li>
+                    <li class="nav-item"><a class="nav-link" href="films.html">Список фильмов</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-2">
+            <nav id="navbar-side" class="h-100 flex-column align-items-stretch pe-4 border-end bg-dark"
+                style="position: fixed; left: 0; height: 100%;">
+                <nav class="nav nav-pills flex-column ">
+                    <li class="nav-item"><a class="nav-link" href="#actorCarousel">Фотографии</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cards">Фильмы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#accordionExample">Краткая информация</a>
+                    </li>
+                </nav>
+            </nav>
+        </div>
+
+        <div class="col-9">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-side" data-bs-smooth-scroll="true" class="scrollspy"
+                tabindex="0">
+                <div id="actorCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#actorCarousel" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#actorCarousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#actorCarousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#actorCarousel" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#actorCarousel" data-bs-slide-to="4"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/robert.jpg" class="d-block w-100" alt="Фото актёра">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/robert2.jpg" class="d-block w-100" alt="Фото актёра">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/robert3.jpg" class="d-block w-100" alt="Фото актёра">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/robert4.jpg" class="d-block w-100" alt="Фото актёра">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/robert5.jpg" class="d-block w-100" alt="Фото актёра">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#actorCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#actorCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+
+
+                <div id="cards" class="container mt-3">
+                    <h2>Мои любимые фильмы с этим актёром</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="images/poster1.jpg" class="card-img-top" alt="Постер фильма">
+                                <div class="card-body">
+                                    <h5 class="card-title">Таксист</h5>
+                                    <p class="card-text">Тусклый свет слепых фонарей, скелеты фабричных труб,
+                                        задыхающихся в
+                                        собственном дыму. Вавилонские башни небоскребов, все это — ад Нового времени,
+                                        Нью-Йорк.
+                                        Ветеран вьетнамской войны Трэвис Бикл ведет свое одинокое такси по ночным улицам
+                                        бесконечного города, и перед ним разворачивается мрачная панорама человеческих
+                                        грехов.
+                                        Как
+                                        ветхозаветный пророк, он надеется, что однажды небеса пошлют на землю
+                                        спасительный
+                                        дождь,
+                                        который очистит Нью-Йорк от вековой грязи. А когда умирает надежда, остается
+                                        только
+                                        ненависть. Огненный ливень обрушится на головы грешников. Таксист позаботится об
+                                        этом.
+                                    </p>
+                                    <a href="https://www.kinopoisk.ru/film/358/" target="_blank"
+                                        class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="images/poster2.jpg" class="card-img-top" alt="Постер фильма">
+                                <div class="card-body">
+                                    <h5 class="card-title">Однажды в Америке</h5>
+                                    <p class="card-text">В бурные двадцатые годы, когда Америка веселилась под звуки
+                                        джаза, и
+                                        каждый
+                                        бродяга мечтал стать миллионером, в трущобах Нью-Йорка встретились несколько
+                                        отчаянных
+                                        парней. Убирая с дороги конкурентов, безжалостно карая предателей и нагло
+                                        проворачивая
+                                        хитроумные аферы, они стали королями преступного мира золотой эры «сухого
+                                        закона». Они
+                                        поклялись отдать жизнь друг за друга, зная, что самое главное для них — это
+                                        дружба, долг
+                                        и
+                                        справедливость — не утопить в реках крови и бездонном океане денег. Спустя много
+                                        лет
+                                        судьба
+                                        жестоко обошлась с легендарными гангстерами, заставив их исполнить свою клятву.
+                                        Это
+                                        случилось однажды в Америке…</p>
+                                    <a href="https://www.kinopoisk.ru/film/469/" target="_blank"
+                                        class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="images/poster3.jpg" class="card-img-top" alt="Постер фильма">
+                                <div class="card-body">
+                                    <h5 class="card-title">Крёстный отец 2</h5>
+                                    <p class="card-text">Для дона Корлеоне и его сына не существует моральных преград на
+                                        пути к
+                                        достижению целей. Они превращают мафию, построенную по патриархальным
+                                        сицилийским
+                                        законам, в
+                                        весьма прагматичную, жесткую корпорацию, плавно интегрируя её в большой бизнес
+                                        Америки.
+                                    </p>
+                                    <a href="https://www.kinopoisk.ru/film/327/" target="_blank"
+                                        class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h2>Краткая информация об актёре</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Информация об актёре
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <b>Родился</b> 17 августа 1943 года (81 год), Нью-Йорк, США<br>
+                                <br>
+                                <b>Где учился</b>: Проучившись несколько лет в частной школе, Роберт по настоянию
+                                матери
+                                поступил в Высшую школу музыки, искусства и исполнительского мастерства имени
+                                Фьорелло Ла
+                                Гуардии в Нью-Йорке (в этом же заведении учился Аль Пачино). Де Ниро посещал курсы
+                                Стеллы
+                                Адлер
+                                (познакомившейся ранее с Константином Станиславским и активно пропагандирующей его
+                                теорию
+                                сверхзадачи), а также актёрскую студию Ли Страсберга.<br>
+                                <br>
+                                <b>Личная жизнь</b>: Первый брак Робертом Де Ниро был заключён с Дайэнн Эбботт,
+                                актрисой и
+                                певицей афроамериканского происхождения. Она известна по нескольким небольшим ролям
+                                в
+                                фильмах
+                                мужа: камео в образе певицы из клуба в фильме «Нью-Йорк, Нью-Йорк», Рита в «Короле
+                                комедии».
+                                Де
+                                Ниро удочерил Дрену, ребёнка Дайэнны от её первого брака. Дрена Де Ниро позже часто
+                                снималась с
+                                приёмным отцом: «Плутовство», «Большие надежды», «Приключения Рокки и Буллвинкля»,
+                                «Последнее
+                                дело Ламарки». От первого брака Де Ниро имеет также сына Рафаэля. Повзрослев,
+                                молодой
+                                человек
+                                пошёл по стопам отца, но быстро разочаровался в актёрской профессии и занялся
+                                торговлей
+                                недвижимостью. В 1988 году брак Де Ниро и Эбботт распался.
+
+                                <p>Длительное время артист имел связь с бывшей моделью Туки Смит (также
+                                    афроамериканкой), не
+                                    оформляя взаимоотношения юридически. В 1995 году благодаря экстракорпоральному
+                                    оплодотворению
+                                    суррогатная мать родила для относительно немолодой пары двух мальчиков-близнецов
+                                    Джулиана
+                                    Генри
+                                    и Аарона Кендрика. Де Ниро часто подчёркивает своё отцовство публично.</p>
+
+                                <p>В 1997 году Роберт Де Ниро женился во второй раз. Новая избранница — Грейс
+                                    Хайтауэр,
+                                    бывшая
+                                    стюардесса. В 1998 году у них родился сын Эллиот Де Ниро, а в 2011 году — дочь
+                                    Хелен
+                                    Грейс
+                                    Де
+                                    Ниро. В 2018 пара развелась.</p>
+
+                                <p>В 2023 году у 79-летнего Де Ниро родилась дочь Джиа Вирджиния Де Ниро-Чен — дочь
+                                    его
+                                    новой
+                                    подруги, тренера по боевым искусствам Тиффани Чен, которая моложе Роберта на 40
+                                    лет.
+                                    Джиа
+                                    Вирджиния стала седьмым ребёнком Де Ниро..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
